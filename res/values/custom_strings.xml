@@ -165,4 +165,7 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+
+    <string name="smart_pixels_settings_title">Smart Pixels</string>
+
 </resources>

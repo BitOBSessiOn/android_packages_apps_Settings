@@ -147,6 +147,7 @@ import org.omnirom.omnigears.interfacesettings.BarsSettings;
 import org.omnirom.omnigears.batterylight.BatteryLightSettings;
 import org.omnirom.omnigears.interfacesettings.StyleSettings;
 import org.omnirom.omnigears.moresettings.MoreSettings;
+import org.omnirom.omnigears.SmartPixels;
 
 public class SettingsGateway {
 
@@ -284,6 +285,7 @@ public class SettingsGateway {
             BarsSettings.class.getName(),
             BatteryLightSettings.class.getName(),
             DialerSettings.class.getName(),
+            SmartPixels.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -325,5 +327,6 @@ public class SettingsGateway {
 
             // Home page > OmniGears
             Settings.OmniDashboardActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
     };
 }

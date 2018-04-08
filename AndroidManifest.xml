@@ -3393,5 +3393,15 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="org.omnirom.omnigears.DialerSettings" />
         </activity>
+        <!-- Smart Pixels -->
+        <activity android:name="Settings$SmartPixelsActivity"
+                android:label="@string/smart_pixels_settings_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="org.omnirom.omnigears.SmartPixels" />
+        </activity>
     </application>
 </manifest>
